@@ -1,0 +1,52 @@
+.row
+{
+    padding-top: 3px;
+}
+body
+{
+    font-family: 'Work Sans', sans-serif;
+}
+h2 {
+  text-align: center;
+  font-size: 5vw;
+}
+#rowholdingbutts {
+  height: 100px;
+}
+
+#colholdingbutts {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.col.hs {
+  display: flex;
+  justify-content: end;
+}
+input {
+  width: 100%;
+}
+
+#p1score {
+  border-radius: 12px;
+  background: green;
+  background: linear-gradient(90deg, green 0%, rgba(0, 205, 14, 0.188) 0px);
+  /*transition*/
+}
+#p2score {
+  border-radius: 12px;
+
+  background: orange;
+  background: linear-gradient(90deg, orange 0%, rgba(255, 166, 0, 0.45) 0px);
+}
+img {
+  transition-property: src;
+  transition-duration: 4s;
+}
+.row.counter {
+  margin: auto;
+}
+#winnerH1 {
+  text-align: center;
+  padding-top: 4px;
+}
